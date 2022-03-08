@@ -1,0 +1,22 @@
+{
+  "appId": "com.cordova.hello",
+  "displayName": "Hello World",
+  "version": "1.0.0",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "authorEmail": "dev@cordova.apache.org",
+  "authorHref": "http://cordova.io",
+  "authorText": "Digital Cordova Team",
+
+  "android": {
+    "minSdkVersion": 26,
+    "AndroidXEnabled": true,
+    "contentPath": "index.html",
+    "scheme": "file",
+    "hostname": "android_asset",
+    "customEntryPoint": "index.html",
+    "contentUpdateEnabled": false
+  },
+  "ios": {
+    "customOrigin": "digapp"
+  }
+}

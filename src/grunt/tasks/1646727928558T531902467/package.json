@@ -1,0 +1,40 @@
+{
+  "name": "io.cordova.hellocordova",
+  "displayName": "HelloCordova",
+  "version": "1.0.0",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Apache Cordova Team",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "cordova-android": "^9.0.0",
+    "cordova-ios": "^6.2.0",
+    "cordova-plugin-inappbrowser": "file:harmony-plugins/plugins/cordova-plugin-inappbrowser",
+    "cordova-plugin-ionic-webview": "file:harmony-plugins/plugins/cordova-plugin-ionic-webview",
+    "cordova-plugin-native-spinner": "file:harmony-plugins/plugins/cordova-plugin-native-spinner",
+    "cordova-plugin-splashscreen": "file:harmony-plugins/plugins/cordova-plugin-splashscreen",
+    "cordova-plugin-statusbar": "file:harmony-plugins/plugins/cordova-plugin-statusbar",
+    "cordova-plugin-whitelist": "file:harmony-plugins/plugins/cordova-plugin-whitelist",
+    "phonegap-plugin-contentsync": "file:harmony-plugins/plugins/phonegap-plugin-contentsync"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-statusbar": {},
+      "cordova-plugin-native-spinner": {},
+      "cordova-plugin-ionic-webview": {},
+      "cordova-plugin-splashscreen": {},
+      "phonegap-plugin-contentsync": {},
+      "cordova-plugin-inappbrowser": {}
+    },
+    "platforms": [
+      "android"
+    ]
+  }
+}

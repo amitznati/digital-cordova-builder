@@ -1,0 +1,200 @@
+{
+  "buildConfig": {
+    "platforms": {
+      "ios": false,
+      "android": true
+    }
+  },
+  "applicationConfig": {
+    "appId": "com.cordova.hello",
+    "displayName": "Hello World",
+    "version": "1.0.0",
+    "description": "A sample Apache Cordova application that responds to the deviceready event.",
+    "authorEmail": "dev@cordova.apache.org",
+    "authorHref": "http://cordova.io",
+    "authorText": "Digital Cordova Team",
+    "appIcon": "res/icons/ios/icon.png",
+    "scrollEnabled": true,
+    "splashScreenDelay": 5000,
+    "ApplicationID": "app",
+    "ContentUpdateURL": "http://10.0.0.6:7000/api/update-provider/getLatestVersionByAppId",
+    "ContentUpdateEnabled": false,
+    "WKWebViewOnly": true,
+    "android": {
+      "minSdkVersion": 26,
+      "AndroidXEnabled": true,
+      "contentPath": "index.html",
+      "scheme": "file",
+      "hostname": "android_asset",
+      "customEntryPoint": "index.html",
+      "contentUpdateEnabled": false,
+      "usesCleartextTraffic": false,
+      "splash": [
+        {
+          "src": "res/screen/android/splash-port-hdpi.png",
+          "density": "port-hdpi"
+        },
+        {
+          "src": "res/screen/android/splash-port-ldpi.png",
+          "density": "port-ldpi"
+        },
+        {
+          "src": "res/screen/android/splash-port-mdpi.png",
+          "density": "port-mdpi"
+        },
+        {
+          "src": "res/screen/android/splash-port-xhdpi.png",
+          "density": "port-xhdpi"
+        },
+        {
+          "src": "res/screen/android/splash-land-hdpi.png",
+          "density": "land-hdpi"
+        },
+        {
+          "src": "res/screen/android/splash-land-hdpi.png",
+          "density": "land-hdpi"
+        },
+        {
+          "src": "res/screen/android/splash-land-ldpi.png",
+          "density": "land-ldpi"
+        },
+        {
+          "src": "res/screen/android/splash-land-mdpi.png",
+          "density": "land-mdpi"
+        },
+        {
+          "src": "res/screen/android/splash-land-xhdpi.png",
+          "density": "land-xhdpi"
+        }
+      ]
+    },
+    "ios": {
+      "iosScheme": "digapp",
+      "hostname": "assets/index.html",
+      "contentPath": "index.html",
+      "statusBarOverlaysWebView": false,
+      "statusBarStyle": "default",
+      "WKSuspendInBackground": false,
+      "splash": [
+        "res/screen/ios/Default@2x~universal~anyany.png",
+        "res/screen/ios/Default@2x~universal~comany.png",
+        "res/screen/ios/Default@2x~universal~comcom.png",
+        "res/screen/ios/Default@3x~universal~anyany.png",
+        "res/screen/ios/Default@3x~universal~anycom.png",
+        "res/screen/ios/Default@3x~universal~comany.png"
+      ],
+      "icons": [
+        {
+          "height": "180",
+          "src": "res/icons/ios/icon-60@3x.png",
+          "width": "180"
+        },
+        {
+          "height": "60",
+          "src": "res/icons/ios/icon-60.png",
+          "width": "60"
+        },
+        {
+          "height": "120",
+          "src": "res/icons/ios/icon-60@2x.png",
+          "width": "120"
+        },
+        {
+          "height": "76",
+          "src": "res/icons/ios/icon-76.png",
+          "width": "76"
+        },
+        {
+          "height": "152",
+          "src": "res/icons/ios/icon-76@2x.png",
+          "width": "152"
+        },
+        {
+          "height": "40",
+          "src": "res/icons/ios/icon-40.png",
+          "width": "40"
+        },
+        {
+          "height": "80",
+          "src": "res/icons/ios/icon-40@2x.png",
+          "width": "80"
+        },
+        {
+          "height": "57",
+          "src": "res/icons/ios/icon.png",
+          "width": "57"
+        },
+        {
+          "height": "114",
+          "src": "res/icons/ios/icon@2x.png",
+          "width": "114"
+        },
+        {
+          "height": "72",
+          "src": "res/icons/ios/icon-72.png",
+          "width": "72"
+        },
+        {
+          "height": "144",
+          "src": "res/icons/ios/icon-72@2x.png",
+          "width": "144"
+        },
+        {
+          "height": "167",
+          "src": "res/icons/ios/icon-167.png",
+          "width": "167"
+        },
+        {
+          "height": "29",
+          "src": "res/icons/ios/icon-small.png",
+          "width": "29"
+        },
+        {
+          "height": "58",
+          "src": "res/icons/ios/icon-small@2x.png",
+          "width": "58"
+        },
+        {
+          "height": "87",
+          "src": "res/icons/ios/icon-small@3x.png",
+          "width": "87"
+        },
+        {
+          "height": "50",
+          "src": "res/icons/ios/icon-50.png",
+          "width": "50"
+        },
+        {
+          "height": "100",
+          "src": "res/icons/ios/icon-50@2x.png",
+          "width": "100"
+        },
+        {
+          "height": "167",
+          "src": "res/icons/ios/icon-83.5@2x.png",
+          "width": "167"
+        },
+        {
+          "height": "48",
+          "src": "res/icons/ios/icon-24@2x.png",
+          "width": "48"
+        },
+        {
+          "height": "20",
+          "src": "res/icons/ios/icon-20.png",
+          "width": "20"
+        },
+        {
+          "height": "1024",
+          "src": "res/icons/ios/icon-1024.png",
+          "width": "1024"
+        },
+        {
+          "height": "87",
+          "src": "res/icons/ios/icon-29@3x.png",
+          "width": "87"
+        }
+      ]
+    }
+  }
+}
